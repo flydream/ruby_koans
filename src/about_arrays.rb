@@ -1,5 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/edgecase')
 
+
 class AboutArrays < EdgeCase::Koan
   def test_creating_arrays
     empty_array = Array.new
